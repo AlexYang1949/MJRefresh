@@ -40,6 +40,7 @@ NSString *const MJCollectionViewCellIdentifier = @"Cell";
         for (int i = 0; i<5; i++) {
             // 添加随机色
             [self.fakeColors addObject:MJRandomColor];
+            NSLog(@"sdfsf");
         }
     }
     return _fakeColors;
